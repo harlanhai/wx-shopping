@@ -1,0 +1,46 @@
+.member-code{
+  .block{
+    width: 600px;
+    height: auto;
+    margin: 100px auto 0 auto;
+  }
+  &-content{
+    position: relative;
+    padding: 40px 30px;
+    font-size: 22px;
+
+    .avatar{
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .name{
+      height: 50px;
+      line-height: 50px;
+      font-size: 30px;
+      margin-top: 40px;
+    }
+    .vip-tag{
+      width: 88px;
+      height: 30px;
+      line-height: 30px;
+      margin: 0 auto;
+      background-color: #B8741A;
+      color: #fff;
+      font-size: 20px;
+    }
+    .person-code{
+      padding: 30px 0;
+      image{
+        width: 200px;
+        height: 200px;
+      }
+    }
+    .tips{
+      height: 36px;
+      line-height: 36px;
+    }
+  }
+}

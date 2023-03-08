@@ -1,0 +1,13 @@
+{
+  "extends": ["taro/react"],
+  "rules": {
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "import/prefer-default-export": "off",
+    "no-irregular-whitespace": "off"  // 关闭空格报错
+  },
+  "plugins": [
+    // 在配置文件里配置插件时, 可以使用 plugins 关键字来存放插件名字的列表。插件名称可以省略 eslint-plugin- 前缀。
+    "react-hooks"
+  ]
+}
