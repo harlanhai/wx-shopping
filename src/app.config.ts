@@ -2,7 +2,7 @@ export default defineAppConfig({
   pages: [
     'pages/login/login',
     'pages/index/index',
-    'pages/memberCode/memberCode'
+    'pages/member/member-code'
   ],
   window: {
     backgroundTextStyle: 'light',

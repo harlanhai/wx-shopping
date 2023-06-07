@@ -1,8 +1,8 @@
 {
-  "name": "wxmember",
+  "name": "wx_shopping",
   "version": "1.0.0",
   "private": true,
-  "description": "微会员",
+  "description": "微商城",
   "templateInfo": {
     "name": "default",
     "typescript": true,
